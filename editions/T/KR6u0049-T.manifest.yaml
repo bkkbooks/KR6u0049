@@ -1,0 +1,38 @@
+canonical_identifier: bkk:krp/KR6u0049/T/v1
+canonical_location: https://kanripo.org/bkk/KR6u0049/T/v1
+canonical_set:
+  identifier: bkk:charset/cjk-v1
+  hash: sha256:0000000000000000000000000000000000000000000000000000000000000000
+metadata:
+  title: 七女觀經
+  identifiers:
+    krp: KR6u0049
+    cbeta: T85n2913
+    cbeta_old_id: T85n2913
+    authorityid: CA0004926
+    json_key: T2913
+  source:
+    repository: cbeta
+    path: /home/chris/src/xml-p5/T/T85/T85n2913.xml
+    old_id: T85n2913
+  edition:
+    short: T
+assets:
+  parts:
+  - {seq: 0, filename: KR6u0049_000-T.yaml, hash: 'sha256:fa73c36a43c36ad938bbe60d1d46b10fca7daad8f4612ef66e5acbcefd3229f3'}
+  - {seq: 1, filename: KR6u0049_001-T.yaml, hash: 'sha256:a86f1a9eee62217f65da8379d3f9c9517b888f07b3fecf9648973190e6d13d93'}
+  markers:
+  - {seq: 0, role: markers, filename: assets/KR6u0049_000-T.markers.yaml, hash: 'sha256:8eb6f5a2d5eccd849eda52e85223277a30f21328c89bc90e010dc45bb63246f0'}
+  - {seq: 1, role: markers, filename: assets/KR6u0049_001-T.markers.yaml, hash: 'sha256:54118b531386e8efac6ee9746ff0a032a374db2ffa73d017519297c64a6fec3b'}
+table_of_contents:
+- ref:
+    seq: 1
+    marker_id: KR6u0049_T_001-juan-start
+    span:
+    - body
+    - 0
+    - 671
+  label: 佛說七女觀經
+  type: juan
+  level: 1
+hash: sha256:6c25cb079492cfb8f7447d48acb02e7022bfb78bcb0789eac829afcfb2a94cb8
