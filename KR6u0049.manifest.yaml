@@ -2,7 +2,7 @@ canonical_identifier: bkk:krp/KR6u0049/v1
 canonical_location: https://kanripo.org/bkk/KR6u0049/v1
 canonical_set:
   identifier: bkk:charset/cjk-v1
-  hash: sha256:7cf5854f9b7b99617990762b56ca5289dd34e1992baf324bb7716157d9a4b2ee
+  hash: sha256:37995e65f5e6cdc8cfbc980fea50ec86663e3e7de950809f7e37f003754b3227
 metadata:
   title: 七女觀經
   identifiers:
@@ -22,10 +22,10 @@ editions:
 assets:
   parts:
   - {seq: 0, filename: KR6u0049_000.yaml, hash: 'sha256:fa73c36a43c36ad938bbe60d1d46b10fca7daad8f4612ef66e5acbcefd3229f3'}
-  - {seq: 1, filename: KR6u0049_001.yaml, hash: 'sha256:a86f1a9eee62217f65da8379d3f9c9517b888f07b3fecf9648973190e6d13d93'}
+  - {seq: 1, filename: KR6u0049_001.yaml, hash: 'sha256:742b4536bbf7159511c3827546f7533d1c1e58d143e8517b153173fb4342ac72'}
   markers:
   - {seq: 0, role: markers, filename: assets/KR6u0049_000.markers.yaml, hash: 'sha256:d3cc5c0cb40bbd28554af43bfe3b2c2a7b7b42e635a1a91e73835bc5918a505f'}
-  - {seq: 1, role: markers, filename: assets/KR6u0049_001.markers.yaml, hash: 'sha256:fd5a8de46c26ee41e534861bb4882ad66100e7f3495e618796be53881cc1a14d'}
+  - {seq: 1, role: markers, filename: assets/KR6u0049_001.markers.yaml, hash: 'sha256:8e17b62d7b4e25b7fc2b84d7d44e2b01be713ac3f2e50b3a65c2d09cf9ca449a'}
 table_of_contents:
 - ref:
     seq: 1
@@ -37,4 +37,7 @@ table_of_contents:
   label: 佛說七女觀經
   type: juan
   level: 1
-hash: sha256:3ad1a1d6a3e70a00645dcbb0964d8c0b1214cfc3f6cf752ded06ca3543545a2f
+hash: sha256:2ff4b83f91dc3c3cd09f09c3a7c05df793c7d7c04a57f0ddc251840050f7ee49
+mappings:
+- canonical_identifier: bkk:mapping/variant-fold-v1
+  hash: sha256:9bc9a4233a10ab6fe6494b31262c157187fd580f02a97cad91be81ccd48f7a20
